@@ -7,8 +7,8 @@ function header() {
   let storage = JSON.parse(localStorage.getItem("todolist"));
   storage = storage ? storage : [];
 
-  dateHeader.innerHTML = moment(new Date()).format("ddd, DD MMM YYYY");
-  taskCount.innerHTML = `${storage.length} Tasks`;
+  dateHeader.innerHTML = moment(new Date()).format("dddd, DD MMM YYYY");
+  taskCount.innerHTML = `${storage.length} Todos in List`;
 }
 
 function listSection() {

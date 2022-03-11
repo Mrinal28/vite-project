@@ -17,7 +17,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(30deg, #9EA5EC, #B5EEF0, #6DDAD3) fixed;
+  background: linear-gradient(30deg, #e66465, #9198e5) fixed;
+  
 }
 input,
 textarea,
@@ -132,4 +133,9 @@ header {
 }
 .cards:hover .delete-btn {
   visibility: visible;
+}
+@media only screen and (max-width: 768px) {
+  main{
+    width: 90vw;
+  }
 }
